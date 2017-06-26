@@ -48,7 +48,7 @@ public class HelloController {
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String homepage() {
 		
-
+			System.out.println("Another test");
 		return "home";
 	}
 	
