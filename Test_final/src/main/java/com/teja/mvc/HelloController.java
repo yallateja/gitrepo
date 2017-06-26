@@ -39,7 +39,7 @@ public class HelloController {
 	    
 		session.setAttribute("username", name);
 		
-		
+		System.out.println("Testing for git");
 		
 		model.setViewName("home");
 		return model;
