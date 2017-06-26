@@ -39,7 +39,7 @@ public class HelloController {
 	    
 		session.setAttribute("username", name);
 		
-		System.out.println("Hello World");
+		System.out.println("Have done some thing for my branch it may be merged later");
 		
 		model.setViewName("home");
 		return model;
